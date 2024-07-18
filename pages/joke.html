@@ -4,27 +4,69 @@
         <meta charset="utf-8">
         <title>Caleb Bradford - Personal Website</title>
         <base href="https://calebbradford.com/">
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+                font-family: Arial, sans-serif;
+            }
+            
+            header {
+                background-color: #444;
+            }
+            
+            header h1 {
+                width: 100%;
+                text-align: left;
+                color: #fff;
+                font-size: 3em;
+                padding: 20px;
+                margin: 0px;
+            }
+            
+            .navbar {
+                background-color: #444;
+                overflow: hidden;
+            }
+            
+            .navbar a {
+                float: left;
+                display: block;
+                color: #fff;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+            
+            .navbar a:hover {
+                background-color: #f0f0f0;
+                color: #000;
+            }
+            
+            .article {
+                padding-left: 20px;
+            }
+        </style>
     </head>
     <body>
-        <table>
-            <tr>
-                <td colspan="7">
-                    <h1>Caleb Bradford</h1>
-                </td>
-            </tr>
+        <header>
+            <h1>Caleb Bradford</h1>
+        </header>
+            
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="pages/about.html">About</a>
+            <a href="pages/projects.html">Projects</a>
+            <a href="pages/resume.html">Resume</a>
+            <a href="pages/contact.html">Contact</a>
+            <a href="pages/joke.html">Joke</a>
+            <a href="pages/mob_boss.html">Mob Boss</a>
+        </div>
         
-            <tr>
-                <td><a href="index.html">Home</a></td>
-                <td><a href="pages/about.html">About</a></td>
-                <td><a href="pages/projects.html">Projects</a></td>
-                <td><a href="pages/resume.html">Resume</a></td>
-                <td><a href="pages/contact.html">Contact</a></td>
-                <td><a href="pages/joke.html">Joke of the Day</a></td>
-                <td><a href="pages/mob_boss.html">Mob Boss</a></td>
-            </tr>
-        </table>
-        <h1>Joke of the Day</h1>
-        <p>I got arrested for stealing the punctuation keys off the judge's keyboard.
-        <br>I'm expecting a long sentence.</p>
+        <div class="article">
+            <h1>Joke of the Day</h1>
+            <p>Want to hear a joke about a roof?<br>
+            The first one's on the house.</p>
+        </div>
     </body>
 </html>
